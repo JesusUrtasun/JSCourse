@@ -1,8 +1,8 @@
 # Chapter 2
 
-## Basic exercises for C++ programming.
-
 ### Jesús Urtasun Elizari - University of Milan - 2019/20
+
+## Basic exercises for JavaScript programming.
 
 Before starting we suggest to create a folder for Chapter 2 in which you can save 
 all files that will be used for the exercises.
@@ -26,56 +26,29 @@ and check the output.
 
 Write a program in JavaScript that computes the area and perimeter of a rectangle.
 
-1. Open a new file `exercise2.js`, declare the variables in double precision (`double`) for the `base` and `height` of the rectangle.
+1. Open a new file `exercise2.js`. Declare the variables `base` and `height` of the rectangle as either numbers or constant numbers.
 
 2. Assign a `base` of `5.0` and a height of `2.0`.
 
 3. Write the formule for the area and perimeter if the rectangle using C++ variables.
 
-4. Write th result on screen using `cout`.
+4. Write th result on screen using `console.log()`.
 
 6. Run the code and check the output.
 
-## Exercise 3 - Correct a program
+## Exercise 3 - Input/output
 
-Identify and correct the syntax errors  present in the next program,
-also with the help of the output after copying
-the content in a new file `exercise4.js`:
+Copy the file `exercise2.js` (area/perimeter rectangle) in a new file `exercise3.js`.
 
-```c++
-// Content of the file exercise4.js
-#include <iostream>
-#include <cmath>
-using namespace std
+Modify the program in such a way that the variables correspong to the base and hieght are read from terminal. Use the command `prompt`.
 
-int main() {
+## Exercise 4 - Notation
 
-  const double angle = 9;
-  const int a = 2, b = 3, sum = 0;  
+Copy file of the previous exercise in `exercise4.js` and add it to the makefile.
 
-  sum = a + b
+Print with `console.log()` the results of area and perimeter using 10 decimal digits, using the notation `fixed` and also `scientific`.
 
-  cout << "sin(9) = " <<sin(angle) << endl;
-  cout << "sum = " << sum << "\n";
-
-return   0;
-
-}
-```
-
-## Exercise 5 - Input/output
-
-Copy the file `exercise2.js` (area/perimeter rectangle) in a new file `exercise5.js` and add to the makefile the new program, i.e. `prog5`.
-
-Modify the program in such a way that the variables correspong to the base and hieght are read from terminal. Use the command `cin`.
-
-## Exercise 6 - Notation for cout
-
-Copy file of the previous exercise in `exercise6.js` and add it to the makefile.
-
-Print with `cout` the results of area and perimeter using 10 decimal digits, using the notation `fixed` and also `scientific`.
-
-Print with `cout`, in any notation, the area and perimeter of the rectangle in the same row, separed by tabulation `\t`.
+Print with `console.log()`, in any notation, the area and perimeter of the rectangle in the same row, separed by tabulation `\t`.
 
 ## Exercise 7 - Converting temperature
 
@@ -84,7 +57,7 @@ Celsius to Kelvin using the equation:
 ```
 T(Kelvin) = T(Celsius) + 273.15
 ```
-where the user can introduce the temperature as input in Celsius using `cin`.
+where the user can introduce the temperature as input in Celsius using `prompt`.
 
 Verify the next conversions:
 - 20 °C -> 293.15 K
