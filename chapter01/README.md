@@ -1,6 +1,6 @@
 # Chapter 1
 
-### Jesús Urtasun Elizari - University of Milan - 2019/20
+## Jesús Urtasun Elizari - University of Milan - 2019/20
 
 ## Exercise 1 - Get used to Linux
 
