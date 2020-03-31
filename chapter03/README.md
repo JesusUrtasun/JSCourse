@@ -1,10 +1,10 @@
 # Chapter 3
 
-## Strings, cin, cout, input/output files, if and else.
+## Data types input/output files, if and else.
 
 ### Jesús Urtasun Elizari - University of Milan - 2019/20
 
-Before starting we suggest to create a folder for Lesson 3 where you can save all files that will be created for the exercise
+Before starting we suggest to create a folder for Chapter 3 where you can save all files that will be created for the exercise
 ```bash
 cd ~/           # go the home directory
 mkdir chapter03  # create the directory chapter03 in home
@@ -15,11 +15,11 @@ cd chapter03     # go inside chapter03
 
 Write a program in JavScript where:
 
-1. The program asks for the user to introduce an integer `n`.
+1. Declare a variables of type string, number, boolean, null, undefinded.
 
-2. Increase and decrease `n` by using operators `++` and `--`.
+2. Print them on screen using `console.log()`.
 
-3. Compute the division and module (rest) of `n` by an `int r = 2;`.
+3. Check that the command `let z;` to declare a variable `z` is equivalent to `undefined`.
 
 5. Print the result on the screen.
 
@@ -32,7 +32,7 @@ To do it use the module operator and the conditional statements (`if`, `else`).
 
 Write a JavaScript program in which:
 
-1. Your name, surname and enrollment number are asked from terminal. Use variables of type `char name[20];` for the name,
+1. Your name, surname and enrollment number are asked from terminal. Use variables of type `string` for the name,
 `string` for the surname and `int` for the enrollment number. Implement the interface in the following way:
 ```text
 Name     :
@@ -40,10 +40,14 @@ Surname  :
 Number   :
 ```
 
-2. Print with `cout` a row with the following syntax:
+2. Print with `console.log()` a row with the following syntax:
 ```bash
 <surname>, <name> is registered with number: <number>.
 ```
+
+3. Use a templata string.
+
+4. Split
 
 ## Exercise 4 - Output file
 
